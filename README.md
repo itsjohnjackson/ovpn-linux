@@ -16,11 +16,11 @@ No error outputting! (This is a big one, ensure you can manually connect before 
 
 # Prerequisites
 Ensure OpenVPN is installed and located within '/etc/openpvn/'.
-Ensure the OpenVPN configuration files have the following lines appended to the end:
-'''
-script-security 2
-up /etc/openvpn/update-resolv-conf
-down /etc/openvpn/update-resolv-conf
+Ensure the OpenVPN configuration files have the following lines appended to the end:\
+'''\
+script-security 2\
+up /etc/openvpn/update-resolv-conf\
+down /etc/openvpn/update-resolv-conf\
 '''
 See http://www.ubuntubuzz.com/2015/09/how-to-fix-openvpn-dns-leak-in-linux.html for more info.
 
