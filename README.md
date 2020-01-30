@@ -1,4 +1,7 @@
 # ovpn-linux
+
+Note: This will not work by default, changes must be made. Please read everything on here.
+
 Simple bash script for selecting ovpn configurations within linux.\
 In my case it's a choice between a TCP and UDP VPN connection.
 
